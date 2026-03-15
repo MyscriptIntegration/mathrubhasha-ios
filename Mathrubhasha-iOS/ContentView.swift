@@ -1,21 +1,9 @@
-//
-//  ContentView.swift
-//  Mathrubhasha-iOS
-//
-//  Created by Ganesh Nemmani on 3/15/26.
-//
-
 import SwiftUI
 
+// Kept for compatibility; RootView is the real app entry now.
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        RootView()
     }
 }
 
